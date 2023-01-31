@@ -1,0 +1,15 @@
+a[title] {
+    color: green;
+    font-size: 15px;
+}
+a[href="https://www.link-academy.ro"] {
+    color: #1f6053;
+    font-size: 25px;
+}
+a[href *= "#en/ro/"] {
+    color: blue;
+}
+a[href $= "fr/ro/"] {
+    color: aqua;
+}
+/* ...mai era destul cod  */
