@@ -1,0 +1,52 @@
+#elementToAnimate {
+    position: relative;
+    animation: yourAnimation 5s linear 0s infinite normal none;
+}
+@keyframes yourAnimation {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        color: red;
+    }
+    20% {
+        transform: translate(50px, 0) rotate(0deg) scale(1);
+        color: blue;
+    }
+    25% {
+        transform: translate(50px, 50px) rotate(0deg) scale(2);
+    }
+    40% {
+        transform: translate(150px, 50px) rotate(0deg) scale(2);
+    }
+    45% {
+        transform: translate(150px, 0) rotate(0deg) scale(2);
+    }
+    60% {
+        transform: translate(350px, 0) rotate(10deg) scale(2);
+        color: red;
+    }
+    65% {
+        transform: translate(350px, 50px) rotate(0deg) scale(2);
+    }
+    80% {
+        transform: translate(550px, 50px) rotate(0deg) scale(2);
+    }
+    85% {
+        transform: translate(550px, 0) rotate(20deg) scale(2);
+    }
+    95% {
+        transform: translate(650px, 0) rotate(0deg) scale(2);
+    }
+    100% {
+        transform: translate(900px, 0) rotate(0deg) scale(2);
+        color: blue;
+    }
+}
+
+#demogame {
+    background-image: url(./spatiu.jpg);
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 100vh;
+    margin: auto;
+    background-size: cover;
+}
